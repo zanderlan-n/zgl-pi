@@ -1,0 +1,35 @@
+{
+  "name": "zgl-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.0.0-beta.20.1",
+    "strapi-admin": "3.0.0-beta.20.1",
+    "strapi-utils": "3.0.0-beta.20.1",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.20.1",
+    "strapi-plugin-content-manager": "3.0.0-beta.20.1",
+    "strapi-plugin-users-permissions": "3.0.0-beta.20.1",
+    "strapi-plugin-email": "3.0.0-beta.20.1",
+    "strapi-plugin-upload": "3.0.0-beta.20.1",
+    "strapi-connector-mongoose": "3.0.0-beta.20.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "c7345bdd-0835-4e7f-a161-3db48a9d1d47"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

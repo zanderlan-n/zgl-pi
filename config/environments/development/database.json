@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "database": "zgl-api",
+        "host": "zcsnserver-h9rqi.gcp.mongodb.net/",
+        "srv": "true",
+        "port": 27017,
+        "username": "admin",
+        "password": "admin123"
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": true
+      }
+    }
+  }
+}
