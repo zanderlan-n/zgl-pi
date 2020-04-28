@@ -5,11 +5,11 @@
       "connector": "mongoose",
       "settings": {
         "database": "zgl-api",
-        "host": "zcsnserver-h9rqi.gcp.mongodb.net/",
+        "host": "${process.env.DATABASE_HOST || 'zcsnserver-h9rqi.gcp.mongodb.net/'}",
         "srv": "true",
-        "port": 27017,
-        "username": "admin",
-        "password": "admin123"
+        "port": "${process.env.DATABASE_PORT ||  27017}}",
+        "username": "${process.env.DATABASE_USERNAME || 'admin'}",
+        "password": "${process.env.DATABASE_PASSWORD || 'admin123'}"
       },
       "options": {
         "authenticationDatabase": "",
