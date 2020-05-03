@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "empresas",
+  "collectionName": "tipos",
   "info": {
-    "name": "empresa"
+    "name": "tipo"
   },
   "options": {
     "increments": true,
@@ -11,13 +11,6 @@
   "attributes": {
     "nome": {
       "type": "string"
-    },
-    "cnpj": {
-      "type": "string"
-    },
-    "anuncio": {
-      "model": "anuncio",
-      "via": "empresa"
     }
   }
 }

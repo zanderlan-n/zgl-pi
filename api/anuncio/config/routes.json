@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/anuncios",
+      "handler": "anuncio.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/anuncios/count",
+      "handler": "anuncio.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/anuncios/:id",
+      "handler": "anuncio.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/anuncios",
+      "handler": "anuncio.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/anuncios/:id",
+      "handler": "anuncio.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/anuncios/:id",
+      "handler": "anuncio.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

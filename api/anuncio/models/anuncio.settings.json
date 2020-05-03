@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "anuncios",
+  "info": {
+    "name": "anuncio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "formaPagamento": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "valor": {
+      "type": "float"
+    },
+    "empresa": {
+      "via": "anuncio",
+      "model": "empresa"
+    }
+  }
+}

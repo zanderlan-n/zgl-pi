@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "residuos",
+  "info": {
+    "name": "residuo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "valor": {
+      "type": "float"
+    },
+    "quantidade": {
+      "type": "float"
+    },
+    "medida": {
+      "type": "string"
+    },
+    "disponivel": {
+      "type": "boolean"
+    },
+    "tipo": {
+      "model": "tipo"
+    }
+  }
+}

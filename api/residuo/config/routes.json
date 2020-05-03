@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/residuos",
+      "handler": "residuo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/residuos/count",
+      "handler": "residuo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/residuos/:id",
+      "handler": "residuo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/residuos",
+      "handler": "residuo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/residuos/:id",
+      "handler": "residuo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/residuos/:id",
+      "handler": "residuo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
