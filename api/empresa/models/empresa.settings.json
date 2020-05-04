@@ -16,8 +16,8 @@
       "type": "string"
     },
     "anuncio": {
-      "model": "anuncio",
-      "via": "empresa"
+      "via": "empresa",
+      "model": "anuncio"
     }
   }
 }

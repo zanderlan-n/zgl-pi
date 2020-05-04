@@ -19,8 +19,11 @@
       "type": "float"
     },
     "empresa": {
-      "via": "anuncio",
-      "model": "empresa"
+      "model": "empresa",
+      "via": "anuncio"
+    },
+    "residuos": {
+      "collection": "residuo"
     }
   }
 }
